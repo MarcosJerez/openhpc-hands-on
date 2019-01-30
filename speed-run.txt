@@ -116,6 +116,9 @@ wwsh file import /etc/munge/munge.key
 
 ## Assemble boostrap image:
 
+you have to install warewulf-provision-initramfs
+yum install warewulf-provision-initramfs-x86_64-ohpc.noarch
+
  wwbootstrap `uname -r`
  
 ## Assemble VNFS image
